@@ -8,12 +8,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  NavbarText,
-  DropdownMenu,
-  DropdownItem,
-  DropdownToggle,
-  UncontrolledDropdown
+  NavLink
 } from 'reactstrap';
 
 import Logo from '../images/logo_b&w.png';
