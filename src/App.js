@@ -5,7 +5,7 @@ import Break from './components/Break';
 import About from './components/About';
 import Guest from './components/Guest';
 import Facebook from './components/Facebook';
-// import Instagram from './components/Instagram';
+import Instagram from './components/Instagram';
 import Contact from './components/Contact';
 import Location from './components/Location';
 import Footer from './components/Footer';
@@ -25,7 +25,7 @@ function App() {
       <Break />
       <Facebook />
       <Break />
-      {/* <Instagram /> */}
+      <Instagram />
       <Break />
       <Contact />
       <Break />
