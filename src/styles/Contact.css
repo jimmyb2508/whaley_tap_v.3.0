@@ -1,0 +1,8 @@
+.form-wrapper {
+  margin: 40px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}

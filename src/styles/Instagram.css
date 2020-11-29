@@ -1,6 +1,6 @@
 .Feed a img {
   animation: fadein 3s;
-  width: 100%;
+  width: 100vw;
 }
 
 .Feed {

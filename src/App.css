@@ -1,4 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
+.App {
+  text-align: center;
+}
+
+.header, .highlight {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  margin: 6rem auto;
+}
+
+.highlight {
+  color: #ffb03b;
 }

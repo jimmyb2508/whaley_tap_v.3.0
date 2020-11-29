@@ -9,6 +9,11 @@ import {
   Nav,
   NavItem,
   NavLink,
+  NavbarText,
+  DropdownMenu,
+  DropdownItem,
+  DropdownToggle,
+  UncontrolledDropdown
 } from 'reactstrap';
 
 import Logo from '../images/logo_b&w.png';
@@ -69,8 +74,6 @@ const NavBar = (props) => {
               <NavLink onClick={scrollToLocation}>Location</NavLink>
             </NavItem>
           </Nav>
-          <div className="nav-social">
-          </div>
         </Collapse>
       </Navbar>
   );

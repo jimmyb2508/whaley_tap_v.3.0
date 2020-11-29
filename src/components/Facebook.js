@@ -12,7 +12,7 @@ export default class Example extends Component {
     return (
       <section className="fb-wrapper">
         <h1 className="header">Follow<span className="highlight"> Us </span>On Facebook</h1>
-          <FacebookProvider appId={fb_key}>
+          <FacebookProvider className="fb-widget" appId={fb_key}>
             <Page href="https://www.facebook.com/The-Whaley-Nook-Tap-Rooms-850671731963064" tabs="timeline" />
           </FacebookProvider>    
       </section>

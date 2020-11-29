@@ -25,7 +25,7 @@ function App() {
       <Break />
       <Facebook />
       <Break />
-      <Instagram />
+      {/* <Instagram /> */}
       <Break />
       <Contact />
       <Break />

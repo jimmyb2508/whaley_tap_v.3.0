@@ -2,27 +2,29 @@
   width: 15%;
 }
 
+.mr-auto {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
 .nav-item {
   margin-left: 0rem;
-  margin-right: 8.5rem;
 }
 
 .nav-social {
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
+  border: solid 1px red;
 }
 
 .fab {
   color: #c47701;
 }
 
-@media only screen and (max-width: 600px) {
-  .nav-item {
-    margin-left: 8rem;
-  }
-
-  .nav-social {
-    margin-left: 5rem;
+@media only screen and (max-width: 767px) {
+  .logo {
+    display: flex;
   }
 }
