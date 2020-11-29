@@ -51,21 +51,21 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem class="nav-item">
+            <NavItem className="nav-item">
               <Router>      
                 <NavLink onClick={scrollToProduct}>The Nook</NavLink>
               </Router>
             </NavItem>
-            <NavItem class="nav-item">
+            <NavItem className="nav-item">
               <NavLink onClick={scrollToAbout}>About</NavLink>
             </NavItem>
-            <NavItem class="nav-item">
+            <NavItem className="nav-item">
               <NavLink onClick={scrollToGuest}>Ales & Spirits</NavLink>
             </NavItem>
-            <NavItem class="nav-item">
+            <NavItem className="nav-item">
               <NavLink onClick={scrollToContact}>Contact</NavLink>
             </NavItem>
-            <NavItem class="nav-item">
+            <NavItem className="nav-item">
               <NavLink onClick={scrollToLocation}>Location</NavLink>
             </NavItem>
           </Nav>

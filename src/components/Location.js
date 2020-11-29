@@ -4,6 +4,7 @@ import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 require('dotenv').config()
 
 const api_key =process.env.REACT_APP_API_KEY;
+console.log(api_key);
 
 const style = {
   position: 'relative',
