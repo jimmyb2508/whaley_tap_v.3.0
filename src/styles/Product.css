@@ -1,10 +1,16 @@
+.card-img {
+  height: 250px;
+  width: 350px;
+}
+
 .product-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 .product-card {
   width: 350px;
+  height: 380px;
   margin: 2rem 2rem;
 }

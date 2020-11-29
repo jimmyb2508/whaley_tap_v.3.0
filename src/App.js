@@ -24,9 +24,9 @@ function App() {
       <Guest />
       <Break />
       <Facebook />
+      {/* <Break />
+      <Instagram /> */}
       <Break />
-      {/* <Instagram />
-      <Break /> */}
       <Contact />
       <Break />
       <Location />
