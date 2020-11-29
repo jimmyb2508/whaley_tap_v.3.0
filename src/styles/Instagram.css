@@ -1,0 +1,16 @@
+.Feed a img {
+  animation: fadein 3s;
+  width: 100%;
+}
+
+.Feed {
+  padding: 1% 10%;
+}
+
+.Feed a {
+  /* margin: 20px; */
+  display: inline-block;
+  margin: 1% 1%;
+  width: 23%;
+  line-height: 0;
+}
