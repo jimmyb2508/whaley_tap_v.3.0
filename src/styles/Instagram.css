@@ -1,8 +1,12 @@
 .insta-box {
+  width: 100%;
+  display: flex;
+  text-align: center;
 }
 
 .Feed a img {
   animation: fadein 3s;
   width: 400px;
+  height: 400px;
   margin: 5px 5px;
 }
