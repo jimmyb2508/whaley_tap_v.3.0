@@ -23,10 +23,11 @@ const Contact = () => {
   }
 
   return (
+    <div>
+    <h1 className="header">Contact <span className="highlight">us</span></h1>
     <section className="form-wrapper">
-      <h1 className="header">Contact <span className="highlight">us</span></h1>
       <div className="input-wrapper">
-      <Form onSubmit={sendEmail}>
+      <Form className="form" onSubmit={sendEmail}>
       <FormGroup className="form-row" row>
         <Label className="labels" for="name" sm={1}>Name</Label>
         <Col sm={5}>
@@ -53,6 +54,8 @@ const Contact = () => {
      </Form>
       </div>
     </section>
+    </div>
+
   );
 }
 

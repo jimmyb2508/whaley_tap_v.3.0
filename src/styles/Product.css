@@ -1,6 +1,6 @@
 .card-img {
   height: 250px;
-  width: 350px;
+  max-width: 350px;
 }
 
 .product-container {
@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }
+
 .product-card {
   width: 350px;
   height: 380px;
