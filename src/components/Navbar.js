@@ -25,23 +25,23 @@ const NavBar = (props) => {
   };
 
   const scrollToProduct = () => {
-    scroll.scrollTo(1450);
+    scroll.scrollTo(1400);
   };
 
   const scrollToAbout = () => {
-    scroll.scrollTo(2250);
+    scroll.scrollTo(2500);
   };
 
   const scrollToGuest = () => {
-    scroll.scrollTo(3000);
+    scroll.scrollTo(2400);
   };
   
   const scrollToContact = () => {
-    scroll.scrollTo(6400);
+    scroll.scrollTo(5500);
   };
 
   const scrollToLocation = () => {
-    scroll.scrollTo(7050);
+    scroll.scrollTo(6000);
   };
 
 

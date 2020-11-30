@@ -1,3 +1,57 @@
+.foot-row {
+}
+
+.foot-col {
+}
+
+.footer-logo {
+  width: 50px;
+  margin: 1rem auto;
+}
+
+.add-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-box i {
+  width: 100%;
+}
+
+.open-box {
+}
+
+.foot-col-soc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* .address {
+  border: solid 2px greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.add-list {
+  border: solid 2px hotpink;
+}
+
 .title {
   margin: 1rem auto;
 }
@@ -11,10 +65,7 @@ hours {
   margin: 1rem auto;
 }
 
-.footer-logo {
-  width: 50px;
-  margin: 1rem auto;
-}
+
 
 .social-title {
   margin: 1rem auto auto 1.5rem;
@@ -30,4 +81,4 @@ hours {
 
 .social-list {
   list-style-type: none;
-}
+} */
