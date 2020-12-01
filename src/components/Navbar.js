@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
-import { animateScroll as scroll } from 'react-scroll';
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import {
   Collapse,
   Navbar,
@@ -10,12 +11,11 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-
 import Logo from '../images/logo_b&w.png';
 
 import '../styles/Navbar.css';
 
-const NavBar = (props) => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -25,7 +25,6 @@ const NavBar = (props) => {
   };
 
   const scrollToProduct = () => {
-    scroll.scrollTo(1400);
   };
 
   const scrollToAbout = () => {
@@ -44,7 +43,6 @@ const NavBar = (props) => {
     scroll.scrollTo(6000);
   };
 
-
   return (
       <Navbar color="light" light expand="md" className="navbar" sticky="top">
         <NavbarBrand><img src={Logo} className="logo" alt="logo" onClick={scrollToTop}></img></NavbarBrand>
@@ -52,7 +50,7 @@ const NavBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem className="nav-item">
-              <Router>      
+              <Router>    
                 <NavLink onClick={scrollToProduct}>The Nook</NavLink>
               </Router>
             </NavItem>

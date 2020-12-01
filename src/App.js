@@ -17,7 +17,7 @@ function App() {
       <NavBar />
       <Carousel />
       <Break />
-      <Product />
+      <Product/>
       <Break />
       <About />
       <Break />
