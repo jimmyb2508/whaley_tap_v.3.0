@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
-import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { animateScroll as scroll} from 'react-scroll'
 import {
   Collapse,
   Navbar,
