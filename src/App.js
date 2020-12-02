@@ -9,6 +9,7 @@ import Instagram from './components/Instagram';
 import Contact from './components/Contact';
 import Location from './components/Location';
 import Footer from './components/Footer';
+import { Element } from "react-scroll";
 import './App.css';
 
 function App() {
@@ -17,19 +18,19 @@ function App() {
       <NavBar />
       <Carousel />
       <Break />
-      <Product/>
+      <Element id="section1" className="element"><Product /></Element>
       <Break />
-      <About />
+      <Element id="section2" className="element"><About /></Element>
       <Break />
-      <Guest />
+      <Element id="section3" className="element"><Guest /></Element>
       <Break />
-      <Facebook />
+      <Element id="section4" className="element"><Facebook /></Element>
       <Break />
-      <Instagram />
+      <Element id="section5" className="element"><Instagram /></Element>
       <Break />
-      <Contact />
+      <Element id="section6" className="element"><Contact /></Element>
       <Break />
-      <Location />
+      <Element id="section6" className="element"><Location /></Element>
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
-import { animateScroll as scroll} from 'react-scroll'
+import { Link, animateScroll as scroll } from "react-scroll";
 import {
   Collapse,
   Navbar,
@@ -23,25 +23,6 @@ const NavBar = () => {
     scroll.scrollToTop();
   };
 
-  const scrollToProduct = () => {
-  };
-
-  const scrollToAbout = () => {
-    scroll.scrollTo(2500);
-  };
-
-  const scrollToGuest = () => {
-    scroll.scrollTo(2400);
-  };
-  
-  const scrollToContact = () => {
-    scroll.scrollTo(5500);
-  };
-
-  const scrollToLocation = () => {
-    scroll.scrollTo(6000);
-  };
-
   return (
       <Navbar color="light" light expand="md" className="navbar" sticky="top">
         <NavbarBrand><img src={Logo} className="logo" alt="logo" onClick={scrollToTop}></img></NavbarBrand>
@@ -50,20 +31,70 @@ const NavBar = () => {
           <Nav className="mr-auto" navbar>
             <NavItem className="nav-item">
               <Router>    
-                <NavLink onClick={scrollToProduct}>The Nook</NavLink>
+                <NavLink>
+                <Link
+                  activeClass="active"
+                  to="section1"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >Experience</Link>
+                </NavLink>
               </Router>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink onClick={scrollToAbout}>About</NavLink>
+            <NavItem>
+              <NavLink>
+                <Link
+                  activeClass="active"
+                  to="section2"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >About</Link>
+                </NavLink>
+              </NavItem>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink onClick={scrollToGuest}>Ales & Spirits</NavLink>
+              <NavLink>
+                <Link
+                  activeClass="active"
+                  to="section3"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >Ales & Sprits
+              </Link>
+              </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink onClick={scrollToContact}>Contact</NavLink>
+              <NavLink>
+                <Link
+                  activeClass="active"
+                  to="section6"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >Contact
+                </Link>
+              </NavLink>
             </NavItem>
             <NavItem className="nav-item">
-              <NavLink onClick={scrollToLocation}>Location</NavLink>
+              <NavLink>
+                <Link
+                  activeClass="active"
+                  to="section6"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >Location
+                </Link>
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
